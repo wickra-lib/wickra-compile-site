@@ -1,0 +1,15 @@
+# Wickra Compile
+
+> Compile a strategy spec into a standalone deployable — a WASM module, a self-contained binary, or a no_std artifact for microcontrollers, byte-identical across ten languages. The CompileSpec is data, not code; the generated manifest (the list of files with their hashes plus the canonical spec hash) is byte-identical across all ten language bindings and reproducible across runs.
+
+Wickra Compile takes the same StrategySpec that wickra-backtest runs and emits a self-contained Rust project that embeds the spec and calls the Wickra engine — no interpreter, no runtime spec parsing. The core logic lives in one Rust crate and is reachable from Rust, Python, Node.js, WASM and — over a C ABI — C, C++, C#, Go, Java and R, plus a reference CLI. Released under the MIT OR Apache-2.0 license.
+
+## Source and packages
+- [GitHub](https://github.com/wickra-lib/wickra-compile): Source, issues, and releases.
+- [crates.io](https://crates.io/crates/wickra-compile): Rust crate.
+- [PyPI](https://pypi.org/project/wickra-compile/): Python package.
+- [npm](https://www.npmjs.com/package/wickra-compile): Node package.
+
+## Ecosystem
+- [Wickra](https://wickra.org): The core streaming-indicator library the ecosystem is built on.
+- [Docs](https://docs.wickra.org): Documentation for the Wickra core.
