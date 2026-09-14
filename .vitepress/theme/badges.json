@@ -3,7 +3,7 @@
     "alt": "CI",
     "href": "https://github.com/wickra-lib/wickra-compile/actions/workflows/ci.yml",
     "file": "/badges/ci.svg",
-    "width": 83,
+    "width": 91,
     "height": 20
   },
   {
@@ -18,6 +18,41 @@
     "href": "https://codecov.io/gh/wickra-lib/wickra-compile",
     "file": "/badges/codecov.svg",
     "width": 112,
+    "height": 20
+  },
+  {
+    "alt": "crates.io",
+    "href": "https://crates.io/crates/wickra-compile",
+    "file": "/badges/crates.svg",
+    "width": 119,
+    "height": 20
+  },
+  {
+    "alt": "npm",
+    "href": "https://www.npmjs.com/package/wickra-compile",
+    "file": "/badges/npm.svg",
+    "width": 97,
+    "height": 20
+  },
+  {
+    "alt": "NuGet",
+    "href": "https://www.nuget.org/packages/Wickra.Compile",
+    "file": "/badges/nuget.svg",
+    "width": 103,
+    "height": 20
+  },
+  {
+    "alt": "Maven Central",
+    "href": "https://central.sonatype.com/artifact/org.wickra/wickra-compile",
+    "file": "/badges/maven.svg",
+    "width": 153,
+    "height": 20
+  },
+  {
+    "alt": "Go module",
+    "href": "https://pkg.go.dev/github.com/wickra-lib/wickra-compile-go",
+    "file": "/badges/go.svg",
+    "width": 85,
     "height": 20
   },
   {
