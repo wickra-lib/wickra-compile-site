@@ -22,13 +22,6 @@ exclude = [
   'wickra\.org/\$(\{|%7B)path',
   'crates\.io/crates/',
   'www\.npmjs\.com/package/',
-  # wickra-compile is not published to any registry yet; these resolve once the
-  # first release lands. Excluded so the scheduled link check stays green until
-  # then. Remove on release.
-  'pypi\.org/project/wickra-compile',
-  'nuget\.org/packages/Wickra.Compile',
-  'central\.sonatype\.com/artifact/org\.wickra/wickra-compile',
+  # Still hidden: https://pkg.go.dev/github.com/wickra-lib/wickra-compile-go answers 404. Remove when it answers.
   'pkg\.go\.dev/github\.com/wickra-lib/wickra-compile-go',
-  'docs\.rs/wickra-compile',
-  'wickra-lib\.r-universe\.dev',
 ]

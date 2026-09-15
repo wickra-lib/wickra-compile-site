@@ -20,4 +20,4 @@ println!("{}", generated.manifest.project_hash);
 
 - [crates.io/crates/wickra-compile](https://crates.io/crates/wickra-compile) - [docs.rs](https://docs.rs/wickra-compile)
 - [Source & examples](https://github.com/wickra-lib/wickra-compile/tree/main/examples/rust)
-- [CompileSpec & targets](https://github.com/wickra-lib/wickra-compile/blob/main/docs/SPEC.md)
+- [CompileSpec & targets](https://github.com/wickra-lib/wickra-compile/blob/main/docs/COMPILESPEC.md)

@@ -16,7 +16,7 @@ hero:
       link: https://github.com/wickra-lib/wickra-compile
     - theme: alt
       text: CompileSpec & targets
-      link: https://github.com/wickra-lib/wickra-compile/blob/main/docs/SPEC.md
+      link: https://github.com/wickra-lib/wickra-compile/blob/main/docs/COMPILESPEC.md
     - theme: alt
       text: API
       link: /api/rust
