@@ -51,7 +51,7 @@ const installTabs = [
   { label: 'C',      lang: 'bash', code: '# prebuilt header + library from GitHub releases:\n# github.com/wickra-lib/wickra-compile/releases' },
   { label: 'C#',     lang: 'bash', code: 'dotnet add package Wickra.Compile' },
   { label: 'Go',     lang: 'bash', code: 'go get github.com/wickra-lib/wickra-compile-go' },
-  { label: 'Java',   lang: 'xml',  code: '<!-- Maven Central -->\n<dependency>\n  <groupId>org.wickra</groupId>\n  <artifactId>wickra-compile</artifactId>\n  <version>0.1.2</version>\n</dependency>' },
+  { label: 'Java',   lang: 'xml',  code: '<!-- Maven Central -->\n<dependency>\n  <groupId>org.wickra</groupId>\n  <artifactId>wickra-compile</artifactId>\n  <version>0.1.3</version>\n</dependency>' },
   { label: 'R',      lang: 'r',    code: 'install.packages("wickracompile", repos = "https://wickra-lib.r-universe.dev")' },
 ]
 
