@@ -33,7 +33,7 @@ features:
     details: "The generated manifest — the list of files with their hashes plus the canonical spec hash (project_hash) — is byte-identical across all ten language bindings and reproducible across runs."
   - icon: 📈
     title: The Wickra engine, embedded
-    details: "The generated project calls the same core that powers a backtest, so a compiled strategy sees exactly the same numbers over the 514 indicators of the Wickra core."
+    details: "The generated project calls the same core that powers a backtest, so a compiled strategy sees exactly the same numbers over the 495 indicators the backtest registry resolves."
   - icon: 🌐
     title: Ten languages, one manifest
     details: "The compiler is a JSON-over-C-ABI data API (Compiler::command_json) in Rust, Python, Node.js, WASM, C, C++, C#, Go, Java and R. A developer in any language emits the same project."

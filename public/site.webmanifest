@@ -1,7 +1,7 @@
 {
   "name": "Wickra Compile",
   "short_name": "Wickra Compile",
-  "description": "Parallel multi-symbol screening over 514 streaming indicators.",
+  "description": "Compile a strategy spec into a standalone deployable — a WASM module, a self-contained binary, or a `no_std` artifact.",
   "icons": [
     { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
     { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
